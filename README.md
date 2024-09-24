@@ -1,28 +1,8 @@
-# REACTJS-DRUPAL
+# React + Vite
 
-ReactJS-Drupal is a simple application which attempts to demonstrate headless drupal feature in Drupal 9.
+This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
----
+Currently, two official plugins are available:
 
-## Using the repo
-
-## Installation
-
-```shell
-git clone reactjs_drupal
-cd reactjs_drupal
-npm start
-```
-
-## Instructions
-
-- Make sure you have Drupal 9 running as backend
-- Make sure you copy URL in config.js
-- Add token inside token file by visiting your site
-- /YOUR_LOCAL_DRUPAL_URL/session/token
-- You must enable CORS
-- And you may have to allow permission for Drupal article contents-type
-
-# Use for reference
-
-Use solely for reference material only
+- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
+- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh

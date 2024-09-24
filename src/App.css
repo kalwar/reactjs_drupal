@@ -11,7 +11,7 @@ main h3 {
   font-size: 20px;
 }
 main tr {
-  background: #69CBE1;
+  background: #69cbe1;
   box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%);
   height: 60px;
   margin: 10px 0;
@@ -19,7 +19,7 @@ main tr {
   transition: 0.3s;
 }
 main tr:hover {
-  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
 }
 .App-logo {
   height: 40vmin;
@@ -44,7 +44,8 @@ main tr td {
   margin-top: 10%;
   width: 20%;
 }
-.create-node-form h4, .create-node-form form {
+.create-node-form h4,
+.create-node-form form {
   margin: 20px;
 }
 main textarea {
